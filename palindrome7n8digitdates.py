@@ -35,8 +35,7 @@ def pal(start,end):
                         if Y[::1] == Y[::-1]:
                             pals.append(Y)
         for i in range(len(pals)):
-            if len(pals[i])>=7:
-                print(pals[i])
+            if len(pals[i])>=7: #remove this if condition if palindrome of 6 digits is also needed
                 count=count+1
         return count
 
